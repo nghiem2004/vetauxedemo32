@@ -1,0 +1,274 @@
+/* CSS Document */
+/* CSS Document */
+	.IBESearchBoxMain {
+		padding: 0 10px;
+	}
+
+	.IBEFormItem[data-type=text] > label {
+		min-width: 72px;
+	}
+
+	.IBE_lfcFindlowestFare {
+		width: 140px;
+		float: right;
+	}
+
+	.IBEFormItem {
+		margin-top: 12px !important;
+	}
+
+	.IBESearchBoxStartDate .IBEFormItem[data-type=text] label, .IBESearchBoxReturnDate .IBEFormItem[data-type=text] label {
+		min-width: 100px !important;
+	}
+
+	.IBESearchBoxPerson {
+		margin-top: 0px;
+	}
+	.IBESearchBoxPerson .IBEFormItem {
+		margin-top: 5px !important;
+	}
+	.IBESearchBoxPerson .IBEFormItem:first-child {
+		width: 30%;
+		margin-right: 2%;
+		float: left;
+	}
+	.IBESearchBoxPerson .IBEFormItem:nth-child(2) {
+		width: 30%;
+		float: left;
+		margin-right: 2%;
+	}
+	.IBESearchBoxPerson .IBEFormItem:nth-child(3) {
+		width: 33%;
+		float: left;
+	}
+	.IBESearchBoxPerson .IBEFormItem:last-child span.IBESearchButton {
+		width: 200px !important;
+		border: 1px solid;
+	}
+	.IBESearchBoxPerson .btn-search {
+		margin-top: 10px;
+		width: 100%;
+		padding: 10px;
+		color: white;
+		font-size: 20px;
+		background: #C10000;
+	}
+.IBESRMain{width: 100%;}
+.BoxFareOption{width:713px; float:left;}
+.IBEFormItem{margin-top:15px !important;}
+.IBEFormItem[data-type="text"] > input, .IBESearchAutoCompleteWrapper > input {border-width:1px 1px 1px 0 !important; border-color:#676767 #676767 #676767 -moz-use-text-color !important;}
+.IBESearchBoxHeader{background:#f6c922 !important; text-align:center !important; font-size:18px !important; text-transform:uppercase; height:50px !important; line-height:50px !important; border-bottom:1px dashed #676767; color:#343434 !important;}
+input.ibe-checkbox[type="radio"] + label.ibe-label {color:#000 !important; font-size:14px; margin-right:10px !important;}
+.IBESearchButton{background:#C10000 !important; height:53px !important; line-height:53px !important; margin-top:0px !important; width:100% !important; text-align:center !important; text-transform:uppercase !important; font-size:25px !important;}
+.IBESearchButton:hover{background:#000 !important;}
+.IBEFormItem[data-type="select"] > label { color:#525252 !important;}
+.IBESearchBoxMain{background:#f6c922 !important; text-align:left; height:100%;}
+.IBEFormItem a{color:#525252 !important;}
+.Box .BoxContent{background:#f4f4f4 !important;}
+#ckbListAirlines td label, #ckbListStopPoint td label{color:#000 !important; font-size:13px !important;}
+#ckbListAirlines td label .IBEMinPrice{color:#000 !important; font-size:12px !important;}
+.IBETinyBox .IBESearchBoxFromTo .IBEFormItem > label{background:#fff url("http://ibev2.maybay.net/Modules/SearchBox/images/location.png") no-repeat scroll center center !important;}
+.IBETinyBox .IBESearchBoxStartReturnDate .IBEFormItem > label{background:#fff url("http://ibev2.maybay.net/Modules/SearchBox/images/dateicon.png") no-repeat scroll center center !important;}
+#pnFilter .BoxContent > span{ text-align:center; text-transform:uppercase; color:#595959; background:#e3e3e3; font-size:15px;}
+.IBEHasCheckbox label{background-image:url(../images/checkbox.png) !important;}
+.Box .BoxTitle{text-align:center; text-transform:capitalize; background:#e32626 !important; font-size:15px !important; line-height:35px; color:#fff;}
+.BoxFareOption{border:4px solid #216cbd !important; border-top:none !important;}
+.ButtonGreen{background:red !important;}
+.ButtonGreen:hover{background:#000 !important;}
+label.ibe-label {background-image:url(../images/ibe-radio.png) !important;}
+.FareFlightContent .FilghtItem .FlightDirection{background-color:wheat !important; font-weight:bold; font-size:15px; text-transform:uppercase;}
+.IBESearchResult{width:100% !important;}
+.IBESearchBoxPerson .IBEFormItem[data-type="select"] select{font-size:15px !important;}
+.IBEFormItem[data-type="text"] > label{font-size:14px !important; min-width:65px !important;}
+.IBESearchBoxStartDate .IBEFormItem[data-type="text"] label, .IBESearchBoxReturnDate .IBEFormItem[data-type="text"] label{min-width:95px !important;}
+.FlightItem {background:url(../images/trang-ket-qua_th.jpg) repeat-x scroll !important;}
+.FlightItem .Price, .FlightItem .Price b{font-size:19px !important; color:#e84e0f;}
+.FlightItem .Price, .FlightItem .Price p{color:#000 !important;}
+.FlightItem .FlightInfo .FlightNumber{font-size:12px !important;}
+.FlightItem .Depart .Time, .FlightItem .Arrival .Time{color:#143b85 !important;}
+.FlightItem .CarrierLogo img{max-width:60px;}
+.IBEFilterByDate li{border-left:1px solid #a86600; padding:10px 2px; background:#ffbd1f; color:#fff;}
+.IBEFilterByDate li.current{padding:10px 2px !important; margin-top:0px !important; background:#4b4b4b !important; color:#fff !important;}
+#lblDepartureFrom{/* font-size:21px; */color:#ff0007;}
+.SearchParamDomestic .SearchParamContent .Itinerary, .SearchParamGlobal .SearchParamContent .Itinerary{font-size:18px !important; color:#000;}
+.SearchParamDomestic .SearchParamContent, .SearchParamGlobal .SearchParamContent{height:75px !important;}
+.SearchParamDomestic, .SearchParamGlobal{height:100% !important; background:#fff !important;}
+#lblDepartureTo{font-size:22px; color:#ff0007;}
+#lblDepartureDate{font-size:18px; color:#143b85;}
+#lblReturnDate{font-size:18px; color:#143b85;}
+#lblReturnFrom{font-size:21px; color:#ff7b0f;}
+#lblReturnTo{font-size:22px; color:#ff7b0f;}
+.FlightItem:hover{background:#ffe655 !important;}
+.SearchParamDomestic .SearchParamContent .FlightDate, .SearchParamGlobal .SearchParamContent .FlightDate{font-size:18px; color:#000;}
+.IBEFilterByDate li span{font-size:13px !important;}
+.IBEFlightSortWrapper{background:#4b4b4b !important;}
+#pnSort a, .IBEFlightSortWrapper a{color:#fff !important;}
+.IBEFlightSortWrapper .BoxTitle{color:#fff !important;}
+.IBEFlightSortWrapper{padding:6px 5px !important;}
+.GrayBox .Content{color:#000 !important; background:#fff8ef;}
+.TotalPrice b{color:#7db921 !important;}
+.IBESelectFlight{background:#ff0000 !important; width:75px !important;}
+.IBESelectFlight i{background:#ff0000 !important;border-left:1px solid #fff !important;}
+#IBEProgressBarWrapper{background:#e3e3e3 !important; height:36px !important; line-height:40px !important;}
+.SearchParamDomestic .FlightIcon, .SearchParamGlobal .FlightIcon{color:red !important;border:1px solid !important;line-height: 40px;}
+
+.IBESelectAirPortRegionItem > ul li{width:60% !important; float:right !important; padding-left:18px !important;}
+#IBESelectAirPortWrapper li{float:right !important; width:100% !important; margin:0px !important;}
+#IBESelectAirPortWrapper{min-width:265px !important;}
+
+#IBESelectAirPortWrapper .ui-autocomplete .ui-menu-item{height:60px !important; line-height:25px !important; border:1px solid #000 !important;}
+#IBESelectAirPortWrapper .ui-autocomplete .ui-menu-item a p{padding:0px 7px 0px 0px;}
+.IBESmallBox .IBESearchBoxPerson .IBEFormItem{width:30% !important; margin-right:3% !important;}
+#IBEWeAreSearchingFlight{font-size:25px !important;}
+.IBESRWrapper .IBEFormItem[data-type="button"]{width:100% !important;}
+.IBESearchBoxPerson .IBEFormItem[data-type="button"]{width:100% !important;}
+.SearchParamContentPageLoad span {font-size:15px !important;}
+.IBEFilterByDateGroup .IBEFilterByDate li{width:101px !important;}
+
+
+.IBESRMain{100% !important;}
+.BoxFareOption{width:713px !important; float:left;}
+.IBEFormItem{margin-top:15px !important;}
+.IBEFormItem[data-type="text"] > input, .IBESearchAutoCompleteWrapper > input {border-width:1px 1px 1px 0 !important; border-color:#676767 #676767 #676767 -moz-use-text-color !important;}
+.IBESearchBoxHeader{background:#f6c922 !important; text-align:center !important; font-size:18px !important; text-transform:uppercase; height:50px !important; line-height:50px !important; border-bottom:1px dashed #676767; color:#343434 !important;}
+input.ibe-checkbox[type="radio"] + label.ibe-label {color:#000 !important; font-size:14px; margin-right:10px !important;}
+.IBESearchButton{background:#C10000 !important; height:53px !important; line-height:53px !important; margin-top:0px !important; width:100% !important; text-align:center !important; text-transform:uppercase !important; font-size:25px !important;}
+.IBESearchButton:hover{background:#000 !important;}
+.IBEFormItem[data-type="select"] > label { color:#525252 !important;}
+.IBESearchBoxMain{background:#f6c922 !important; text-align:left; height:100%;}
+.IBEFormItem a{color:#525252 !important;}
+.Box .BoxContent{background:#f4f4f4 !important;}
+#ckbListAirlines td label, #ckbListStopPoint td label{color:#000 !important; font-size:13px !important;}
+#ckbListAirlines td label .IBEMinPrice{color:#000 !important; font-size:12px !important;}
+.IBETinyBox .IBESearchBoxFromTo .IBEFormItem > label{background:#fff url("http://ibev2.maybay.net/Modules/SearchBox/images/location.png") no-repeat scroll center center !important;}
+.IBETinyBox .IBESearchBoxStartReturnDate .IBEFormItem > label{background:#fff url("http://ibev2.maybay.net/Modules/SearchBox/images/dateicon.png") no-repeat scroll center center !important;}
+#pnFilter .BoxContent > span{ text-align:center; text-transform:uppercase; color:#595959; background:#e3e3e3; font-size:15px;}
+.IBEHasCheckbox label{background-image:url(../images/checkbox.png) !important;}
+.Box .BoxTitle{text-align:center; text-transform:capitalize; background:#e32626 !important; font-size:15px !important; line-height:35px; color:#fff;}
+.BoxFareOption{border:4px solid #216cbd !important; border-top:none !important;}
+.ButtonGreen{background:red !important;}
+.ButtonGreen:hover{background:#000 !important;}
+label.ibe-label {background-image:url(../images/ibe-radio.png) !important;}
+.FareFlightContent .FilghtItem .FlightDirection{background-color:wheat !important; font-weight:bold; font-size:15px; text-transform:uppercase;}
+.IBESearchResult{width:100% !important;}
+.IBESearchBoxPerson .IBEFormItem[data-type="select"] select{font-size:15px !important;}
+.IBEFormItem[data-type="text"] > label{font-size:14px !important; min-width:65px !important;}
+.IBESearchBoxStartDate .IBEFormItem[data-type="text"] label, .IBESearchBoxReturnDate .IBEFormItem[data-type="text"] label{min-width:96px !important;}
+.FlightItem {background:url(../images/trang-ket-qua_th.jpg) repeat-x scroll !important;}
+.FlightItem .Price, .FlightItem .Price b{font-size:19px !important; color:#e84e0f;}
+.FlightItem .Price, .FlightItem .Price p{color:#000 !important;}
+.FlightItem .FlightInfo .FlightNumber{font-size:12px !important;}
+.FlightItem .Depart .Time, .FlightItem .Arrival .Time{color:#143b85 !important;}
+.FlightItem .CarrierLogo img{max-width:60px;}
+.IBEFilterByDate li{border-left:1px solid #a86600; padding:10px 3px !important; background:#ffbd1f; color:#fff; width:101px !important;}
+.IBEFilterByDate li.current{padding:10px 3px !important; margin-top:0px !important; background:#4b4b4b !important; color:#fff !important;}
+#lblDepartureFrom{font-size:21px; color:#ff0007;}
+.SearchParamDomestic .SearchParamContent .Itinerary, .SearchParamGlobal .SearchParamContent .Itinerary{font-size:18px !important; color:#000;}
+.SearchParamDomestic .SearchParamContent, .SearchParamGlobal .SearchParamContent{height:75px !important;}
+.SearchParamDomestic, .SearchParamGlobal{height:100% !important; background:#fff !important; text-align:center;}
+#lblDepartureTo{font-size:22px; color:#ff0007;}
+#lblDepartureDate{font-size:18px; color:#143b85;}
+#lblReturnDate{font-size:18px; color:#143b85;}
+#lblReturnFrom{font-size:21px; color:#ff7b0f;}
+#lblReturnTo{font-size:22px; color:#ff7b0f;}
+.FlightItem:hover{background:#ffe655 !important;}
+.SearchParamDomestic .SearchParamContent .FlightDate, .SearchParamGlobal .SearchParamContent .FlightDate{font-size:18px; color:#000;}
+.IBEFilterByDate li span{font-size:13px !important;}
+.IBEFlightSortWrapper{background:#4b4b4b !important;}
+#pnSort a, .IBEFlightSortWrapper a{color:#fff !important;}
+.IBEFlightSortWrapper .BoxTitle{color:#fff !important;}
+.IBEFlightSortWrapper{padding:6px 0px !important;}
+.GrayBox .Content{color:#000 !important; background:#fff8ef;}
+.TotalPrice b{color:#7db921 !important;}
+.IBESelectFlight{background:#ff0000 !important; width:66px !important;}
+.IBESelectFlight i{background:#ff0000 !important;border-left:1px solid #fff !important;}
+#IBEProgressBarWrapper{background:#e3e3e3 !important; height:36px !important; line-height:40px !important;}
+.SearchParamDomestic .FlightIcon, .SearchParamGlobal .FlightIcon{color:red !important; border:1px solid !important;}
+
+.IBESelectAirPortRegionItem > ul li{width:60% !important; float:right !important; padding-left:18px !important;}
+#IBESelectAirPortWrapper li{float:right !important; width:100% !important; margin:0px !important;}
+#IBESelectAirPortWrapper{min-width:265px !important;}
+
+#IBESelectAirPortWrapper .ui-autocomplete .ui-menu-item{height:60px !important; line-height:25px !important; border:1px solid #000 !important;}
+#IBESelectAirPortWrapper .ui-autocomplete .ui-menu-item a p{padding:0px 7px 0px 0px;}
+.IBESmallBox .IBESearchBoxPerson .IBEFormItem{width:30% !important; margin-right:3% !important;}
+#IBEWeAreSearchingFlight{font-size:25px !important;}
+.IBESRWrapper .IBEFormItem[data-type="button"]{width:100% !important;}
+.IBESearchBoxPerson .IBEFormItem[data-type="button"]{width:100% !important;}
+.SearchParamContentPageLoad span {font-size:15px !important;}
+.IBECommonWrapper {
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: #333 !important;
+}
+.IBECommonWrapper * {
+    -webkit-box-sizing: inherit !important;
+    -moz-box-sizing: inherit !important;
+    box-sizing: inherit !important;
+}
+.IBECommonWrapper * {
+    -webkit-box-sizing: inherit !important;
+    -moz-box-sizing: inherit !important;
+    box-sizing: inherit !important;
+}
+.IBEFormItem a {
+    color: #3086cc !important;
+    font-size: 12px !important;
+    text-decoration: none !important;
+}
+.IBEFormItem[data-type=select] > label {
+    font-size: 14px !important;
+    min-width: 50px !important;
+    padding: 3px 0 !important;
+    font-weight: normal !important;
+}
+.IBEFormItem[data-type=select] > select {
+    border: 1px solid #ccc !important;
+    height: 33px !important;
+    width: 100% !important;
+    margin-top: 3px !important;
+    margin-bottom: 0 !important;
+}
+.IBEFormItem[data-type=text] > input, .IBESearchAutoCompleteWrapper > input {
+    float: left !important;
+    margin-bottom: 0 !important;
+    position: relative !important;
+    width: 99% !important;
+    z-index: 2 !important;
+    border: solid 1px #ccc !important;
+    height: 35px !important;
+    line-height: 35px !important;
+    border-left: 0 !important;
+    border-radius: 0 3px 3px 0 !important;
+    text-indent: 10px !important;
+    font-size: 15px !important;
+    color: #333 !important;
+    padding: 1px;
+}
+input[type=radio].ibe-checkbox + label.ibe-label {
+    padding-left: 23px !important;
+    height: 18px !important;
+    display: inline-block !important;
+    line-height: 18px !important;
+    background-repeat: no-repeat !important;
+    background-position: 0 0 !important;
+    font-size: 13px !important;
+    vertical-align: middle !important;
+    cursor: pointer !important;
+}
+.IBEFormItem[data-type=text] > label {
+    background: #f1f1f1 none repeat scroll 0 0 !important;
+    border: 1px solid #cccccc !important;
+    border-radius: 3px 0 0 3px !important;
+    display: table-cell !important;
+    font-size: 13px !important;
+    min-width: 80px !important;
+    padding: 3px 10px !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    width: 1% !important;
+}
+div.IBEFormItem span{padding:0px; background:none; color:#333333;}
+

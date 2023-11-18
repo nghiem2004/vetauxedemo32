@@ -1,0 +1,226 @@
+body{font-size:14px !important;}
+a{font-size:14px !important;}
+li{font-size:14px !important;}
+.noidungtin{font-size:14px !important;}
+table{font-size:14px !important;}
+
+button.btn-tim-ve {
+    background: #c10800;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 4px;
+}
+.ad {
+    width: 49%;
+    float: left;
+    padding: 0;
+    margin-left: 6px;
+}
+.form-booking {
+   
+    width: 50%;
+    float: left;
+}
+
+h6.ng-binding {
+    display: block;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.row.et-widget-header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    vertical-align: middle;
+    background-color: #f6c922;
+    border-bottom: solid 3px #0082c4;
+    color: #c10800;
+}
+.box-icon {
+    width: 32.333%;
+    display: inline-block;
+    margin: 15px 0;
+}
+.comment-text {
+    
+    line-height: 24px;
+}
+.captcha {
+    text-align: center;
+}
+li.khuyenmaili a {
+    font-size: 13px;
+}
+.img-icon {
+    width: 25%;
+    float: left;
+}
+.box-content h3 {
+   
+    color: #004f8c;
+}
+.box-content p {
+ 
+    display: table;
+}
+.box-f {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a#pull {
+    display: none;
+}
+.hdmaytinh {
+    display: none;
+}
+
+@media only screen and (max-width: 48em) {
+/*************** Responsive Website ***************/
+
+#bd{font-size:14px !important;}
+a{font-size:14px !important;}
+li{font-size:14px !important;}
+.noidungtin{font-size:14px !important;}
+table{font-size:14px !important;}
+.tabcontent{font-size:14px !important;}
+
+select.hdmaytinh {
+    display: block;
+    width: 98%;
+    background: #0188c8;
+    color: #fff;
+    border: none;
+    padding: 1%;
+}
+.hdmaytinh {
+    display: block;
+
+}
+.box-icon {
+    width: 100% !important;
+    display: block;
+    text-align: center;
+
+}
+.khuyenmainhom h3 {
+
+    width: 96%;
+    
+}
+#ja-wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+.img-icon {
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+.khuyenmaili {
+   float: left;
+    width: 50% !important;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+.khungmainnoidungabc, .khungnoidungkhuyenmai {
+    width: 100%;
+}
+.khungkhuyenmai {
+    width: 100% !important;
+
+}
+.hotlineLeft, .hotlineRight {
+    display: none;
+}
+img {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+}
+#ja-mainbody {
+    width: 100%;
+    float: none;
+    overflow: hidden;
+}
+ul#ja-cssmenu {
+    display: none;
+}
+a#pull {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    padding-left: 15px;
+    cursor: pointer;
+    z-index: 9999;
+    background: #0087c8;
+}
+ul.main-nav.responsive {
+    display: block !important;
+    width: 100%;
+    transition: all .2s;
+}
+ul.main-nav.responsive li {
+    width: 100%;
+    display: block;
+    background: #333 !important;
+    position: relative;
+}
+#ja-col2 {
+    float: none;
+    overflow: hidden;
+    width: 100%;
+
+}
+.noidungtin img {
+    border: 0;
+    padding: 0;
+    width: 100% !important;
+    overflow: hidden;
+    height: auto !important;
+}
+.khungform .span {
+    float: left;
+    margin: 0;
+    line-height: 65px;
+}
+.khungform input:focus, .khungform input:valid {
+    width: auto !important;
+}
+.khungform textarea:valid {
+    width: 44%;
+}
+#ja-col2 {
+    width: 100%;
+}
+#ja-col2 div.ja-innerpad {
+        width: 100%;
+        padding: 0;
+
+}
+.khuyenmaili a {
+   margin-left: 3%;
+}
+
+#bbpress-forums fieldset.bbp-form legend, .base-box, .comment-form, .sidebar .widget, div.bbp-template-notice, div.indicator-hint {
+  background: #fff none repeat scroll 0 0;
+    border: 1px solid #adadad;
+    margin-bottom: 21px;
+    padding: 10px 1%;
+    position: relative;
+    width: 100%;
+    margin-left: 0;
+}
+.form-booking {
+    width: 100%;
+}
+.hd {
+    display: none;
+    
+}
+#video{height:320px;}
+#chinhlitrong{width:97% !important; margin-left:1% !important;}

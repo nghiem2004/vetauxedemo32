@@ -1,0 +1,187 @@
+.nsp_main{ overflow:hidden; }
+.nsp_bottom_interface,
+.nsp_top_interface{ overflow:hidden; margin:5px 0; }
+.nsp_bottom_interface div,
+.nsp_top_interface div{ float:right; }
+	.nsp_bottom_interface .pagination,
+	.nsp_top_interface .pagination{ list-style-type:none; margin:0; padding:0; float:left; }
+	.nsp_bottom_interface .pagination li,
+	.nsp_top_interface .pagination li{ float:left; cursor:pointer; text-indent:-999em; width:16px; height:16px; background:#ddd; margin-right:2px; border-radius:2px 2px; -moz-border-radius:2px 2px; -webkit-border-radius:2px 2px; }
+	.nsp_bottom_interface .pagination li:hover,
+	.nsp_bottom_interface .pagination li.active,
+	.nsp_top_interface .pagination li:hover,
+	.nsp_top_interface .pagination li.active{ background:#444; }
+	.nsp_bottom_interface .prev,
+	.nsp_top_interface .prev{ background:#ddd; color:#444; padding:1px 3px; cursor:pointer; border-radius:2px 2px; -moz-border-radius:2px 2px; -webkit-border-radius:2px 2px; font-size:9px; float:left; margin:0 3px 0 0; }
+	.nsp_bottom_interface .prev:hover,
+	.nsp_top_interface .prev:hover{ background:#444; color:#ddd; }
+	.nsp_bottom_interface .next,
+	.nsp_top_interface .next{ background:#ddd; color:#444; padding:1px 3px; cursor:pointer; border-radius:2px 2px; -moz-border-radius:2px 2px; -webkit-border-radius:2px 2px; font-size:9px; float:left; }
+	.nsp_bottom_interface .next:hover,
+	.nsp_top_interface .next:hover{ background:#444; color:#ddd; }
+	.nsp_bottom_interface .counter,
+	.nsp_top_interface .counter{ background:#ddd; color:#444; padding:1px 3px; cursor:pointer; border-radius:2px 2px; -moz-border-radius:2px 2px; -webkit-border-radius:2px 2px; font-size:9px; float:left; margin:0 0 0 3px; }
+	.nsp_bottom_interface .counter span,
+	.nsp_top_interface .counter span{}
+	.nsp_bottom_interface .counter strong,
+	.nsp_top_interface .counter strong{}
+	
+.nsp_arts{ overflow:hidden; }
+.nsp_art{float:left;}
+.nsp_art div{padding:0 10px;} /* here you can put padding for your articles content */
+	.nsp_art h4.nsp_header{}
+		.nsp_art h4.nsp_header a{}
+		.nsp_art h4.nsp_header a:hover{}
+	.nsp_art img.nsp_image{}
+	.nsp_art p.nsp_text{float:none;}
+		.nsp_art p.nsp_text a{}
+		.nsp_art p.nsp_text a:hover{}
+	.nsp_art p.nsp_info{font-size:90%}
+		.nsp_art p.nsp_info a{}
+		.nsp_art p.nsp_info a:hover{}
+		
+	.nsp_art .tleft{ text-align:left; }
+	.nsp_art .tright{ text-align:right; }
+	.nsp_art .tcenter{ text-align:center; }
+	.nsp_art .tjustify{ text-align:justify; }
+	
+	.nsp_art .fleft{float:left;}
+	.nsp_art .fright{float:right;}
+	.nsp_art .fnone{ clear:both;width:100%;float:none; margin:0 5px; padding:5px 0; font-weight:normal;}
+	
+	.readon_class.left,
+	.readon_class.right,
+	.readon_class.center{clear:both;}
+	
+	.readon_class.left{float:left;}
+	.readon_class.right{float:right;}
+	.readon_class.center{display:inline;float:none;}
+	
+	.nsp_avatar{}
+
+.nsp_links{}
+.nsp_links ul{padding:0;margin:0;list-style-type:none;}
+.nsp_links ul li{}
+.nsp_links ul li:hover{}
+	.nsp_links ul li h4{}
+	.nsp_links ul li h4 a{}
+	.nsp_links ul li h4 a:hover{}
+	.nsp_links ul li p{}
+/* positioning */
+.nsp_arts.left{float:right;}
+.nsp_links_wrap.left{float:left;}
+.nsp_arts.right{float:left;}
+.nsp_links_wrap.right{float:right;}
+/* make element unvisible */
+.nsp_main .unvisible{ height:1px; left:-10000px; overflow:hidden; position:absolute; top:auto; width:1px; }
+.breadrum{width:100%; height:auto; float:left; background:#e3e3e3; margin-bottom:5px;}
+.breadrum ul li{ background:url(../images/arrow.png) no-repeat left; float:left; margin:0px; padding:0px 5px;}
+.breadrum ul li a{margin-left:10px; color:#003; line-height:30px; font-size:11px;}
+.breadrum ul li a:hover{text-decoration:underline; color:#cc0000;}
+.breadrum ul li strong{margin-left:0px; color:#003; line-height:30px;}
+#khungvarchuyen{line-height:27px;}
+#khungvarchuyen ul{margin:0; padding:0;}
+#khungvarchuyen ul li{float:left; width:250px; font-size:14px; padding-left:30px;}
+#khungvarchuyen ul li a{padding:5px 0px;}
+
+.tagslienquan{line-height:20px; font-size:11px;}
+.tagslienquan ul li{float:left; width:180px;}
+.noidungtin{ float: left;
+    color: #000;
+    width: 95%;
+    text-align: justify;
+    line-height: 25px;
+    border: 1px solid #adadad;
+    padding: 2%;
+    margin-left: 1px;}
+#bgnenleft{text-transform:uppercase; font-size:10px; text-align:center; background:#dd5600;}
+#bgnenleft h2{ color:#FFF; border-bottom:2px double #a7a7a7; padding:10px 0px 6px 0; font-size:17px;}
+.cacchuyenlq ul{float:left; }
+.cacchuyenlq ul li{float:left; width:250px; font-size:11px;}
+.chuyenbaylienquan{float:left;}
+.ja-slidenews-item img{ border: 1px solid #676767;
+    height: 45px;
+    margin-right: 5px;
+    padding: 2px;
+    width: 45px;
+	}
+	/* max-width:none !important; max-height:none !important; */
+.noidungtin img{border: 1px solid #939393;
+    padding: 4px;
+    width: 80% !important;
+    HEIGHT: AUTO !important; }
+.tieudechuyenbaylq{font-size:14px; height:35px;}
+
+.hotlineLeft {width:122px;position: fixed;top: 60px;margin-left: -132px;}
+.hotlineLeft .contentHotline {background:#fff url(images/HotlinePhonea.png) no-repeat 10px 112px; margin-right:5px; border: solid 2px #D51317; border-radius:5px; color:#000040; padding:10px 0px;}
+.hotlineLeft .contentHotline h5 {font-size:18px; line-height:30px; text-align:left; font-weight:normal; text-transform:capitalize; color:#D51317;}
+.hotlineLeft .contentHotline .hotlineNumber{ font-size:16px; font-weight:bold;  margin:10px 8px 10px 65px; border-left:solid 1px #d2d2d2; padding-left:10px;}
+.hotlineLeft .contentHotline .hotlineNumber span {line-height:25px;}
+.hotlineLeft .contentHotline .yahooHotline {border:solid 1px #cccccc; border-radius:18px; background:url(images/Yahoo.png) no-repeat 10px center;  margin:10px 15px 10px 10px; color:#143a83; padding:8px;padding-left:60px; font-size:12px; font-weight:bold; display:block}
+.hotlineLeft .contentHotline .yahooHotline a{ text-decoration: none;}
+.hotlineRight {
+    margin-left: 965px;
+    position: fixed;
+    top: 60px;
+    width: 122px;
+}
+.hotlineRight .contentHotline {background:#fff url(/images/HotlinePhonea.png) no-repeat 10px 50px; margin-right:5px; border: solid 2px #F36A01; border-radius:5px; color:#F36A01; padding:10px 0px;}
+.hotlineRight .contentHotline h5 {font-size:22px; line-height:20px; text-align:center; font-weight:bold;}
+.hotlineRight .contentHotline .hotlineNumber{ font-size:16px; font-weight:bold;  margin:10px 8px 10px 65px; border-left:solid 1px #d2d2d2; padding-left:10px;}
+.hotlineRight .contentHotline .hotlineNumber span {line-height:25px;}
+.hotlineRight .contentHotline .yahooHotline {border:solid 1px #cccccc; border-radius:18px; background:url(/images/Yahoo.png) no-repeat 10px center;  margin:10px 15px 10px 10px; color:#143a83; padding:8px;padding-left:60px; font-size:12px; font-weight:bold; display:block}
+.hotlineRight .contentHotline .yahooHotline a{ text-decoration: none;}
+.vemaybaydoankhuyenmai{float:right; width:49%; line-height:29px; text-align:right; font-size:13px; text-align:center;}
+.vemaybaydoankhuyenmai a{color:#003;}
+
+.boxGiave {
+    margin-top: 15px;
+}
+.boxGiave h3 {
+    background: url("../Images/emailReg_09.jpg") repeat-x scroll 0 0 #05529B;
+    border-radius: 5px 5px 0 0;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 10px;
+	margin:0px;
+}
+
+.boxGiave h3 span {
+    display: block;
+    line-height: 25px;
+}
+.contentBoxGiave {
+    background: none repeat scroll 0 0 #E2F0FD;
+    border: 1px solid #ACC0D3;
+    border-radius: 0 0 5px 5px;
+    color: #333333;
+    padding: 5px 0;
+}
+.contentBoxGiave table {
+    border-radius: 5px;
+}
+.contentBoxGiave table td {
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+}
+.contentBoxGiave table td span.Price {
+    color: #FE7C13;
+    font-size: 15px;
+    font-weight: bold;
+}
+#lp_flight_calendar {background:#EDFCFC;}
+#lp_flight_calendar tr td b{color:#F00; font-size:11px;}
+#lp_flight_calendar tr td b label{color:#006;}
+td.duration b{color:#F00; font-size:18px;}
+.gach10px{width:100%; height:10px; float:left;}
+.nenhotline{background:url(../images/nen-hotline.png) no-repeat left; height:55px;}
+.nenhotlinean{background:#0188c8; height:115px;}
+.nenhotlineBAY{background:url(../images/nen-hotline-bay.png) no-repeat left; height:100px;}
+.nenhotlineXE .keywords{background:#FADCB4; color:#000;}
+.randsodienthoai1{background:url(../images/hotline1.png) no-repeat center;float:right; height:80px; width:100%; color:#FFFFFF; padding-top:15px; text-align:center;}
+.randsodienthoai2{background:url(../images/hotline2.png) no-repeat center;float:right; height:80px; width:450px;color:#FFFFFF;padding-top:15px;text-align:center;}
+.randsodienthoai3{background:url(../images/hotline3.png) no-repeat center;float:right; height:80px; width:450px;color:#FFFFFF;padding-top:15px;text-align:center;}
+.classlinka{color:#FFFF00; text-decoration:underline;}

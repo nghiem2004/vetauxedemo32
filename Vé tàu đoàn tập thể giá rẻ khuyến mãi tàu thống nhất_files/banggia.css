@@ -1,0 +1,1768 @@
+
+@import "https://fonts.googleapis.com/css?family=Roboto:400,700,700i&subset=vietnamese";
+.IBESRWrapper {
+    font-family: "Roboto",sans-serif;
+}
+.IBESRWrapper * {
+    box-sizing: border-box;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+.IBESearchResult {
+    display: inline-block;
+    width: 980px;
+}
+
+.IBESRMain {
+    float: left;
+    overflow: hidden;
+line-height: 25px;
+}
+.IBESRRight {
+    float: left;
+    margin-left: 10px;
+    width: 220px;
+}
+.IBESRLoading {
+    margin: 50px auto;
+}
+.IBESRLoading img {
+    max-width: 100%;
+}
+ul.IBEProgressBar {
+    background-image: url("../images/progress_step.png");
+    display: block;
+    height: 24px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 750px;
+}
+ul.Step1 {
+    background-position: 0 0;
+}
+ul.Step2 {
+    background-position: 0 -24px;
+}
+ul.Step3 {
+    background-position: 0 -48px;
+}
+ul.IBEProgressBar li {
+    float: left;
+    margin-right: 5px;
+}
+ul.IBEProgressBar li.last {
+    float: right;
+    margin-right: 0;
+}
+ul.IBEProgressBar li a span {
+    display: inline-block;
+    height: 24px;
+}
+ul.IBEProgressBar li a, ul.IBEProgressBar li a:hover {
+    cursor: default;
+    float: left;
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    width: 230px;
+}
+ul.Step1 a#step1 {
+    
+}
+ul.Step1 a#step2 {
+    color: #696969;
+}
+ul.Step1 a#step3 {
+    color: #696969;
+}
+ul.Step2 a#step1 {
+    color: #056ba9;
+    cursor: pointer;
+}
+ul.Step2 a#step2 {
+    color: #056ba9;
+}
+ul.Step2 a#step3 {
+    color: #696969;
+}
+ul.Step3 a#step1 {
+    color: #696969;
+}
+ul.Step3 a#step2 {
+    color: #696969;
+}
+ul.Step3 a#step3 {
+    color: orangered;
+}
+.SearchParamDomestic, .SearchParamGlobal {
+    background-color: #ff0000;
+	color:#fff;
+	line-height:30px;
+    width: 100%;
+}
+.SearchParamDomestic .FlightIcon, .SearchParamGlobal .FlightIcon {
+    border-right: 1px solid #fff;
+    float: left;
+    font-size: 35px;
+    height: 40px;
+    margin-top: 5px;
+    text-align: center;
+    width: 50px;
+}
+.SearchParamDomestic .FlightIcon img, .SearchParamGlobal .FlightIcon img {
+    height: 50px;
+}
+.SearchParamDomestic .SearchParamContent, .SearchParamGlobal .SearchParamContent {
+    float: left;
+    height: 50px;
+    margin-left: 2px;
+}
+.SearchParamDomestic .SearchParamContent .Itinerary, .SearchParamGlobal .SearchParamContent .Itinerary {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+.SearchParamDomestic .SearchParamContent .FlightDate, .SearchParamGlobal .SearchParamContent .FlightDate {
+    margin-top: 0px;
+}
+.SearchParamDomestic .PassengerNumber, .SearchParamGlobal .PassengerNumber {
+    float: right;
+    margin-right: 10px;
+    margin-top: 17px;
+    text-align: right;
+}
+.FareHeader {
+    background-color: #216cbd;
+    padding: 5px;
+}
+.FareHeader .Price .TotalPrice {
+    color: #ffff00;
+    font-size: 1.6667em;
+    font-weight: 700;
+    height: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.Box {
+    background-
+    box-shadow: 0 0;
+}
+.Box .BoxTitle {
+    background-color: #216cbd;
+    
+    font-size: 13px;
+    font-weight: 700;
+    height: auto;
+    line-height: 25px;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+.Box .BoxContent {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #ddd #ddd currentcolor;
+    border-image: none;
+    border-style: none solid;
+    border-width: medium 1px 0;
+    padding: 10px;
+}
+.NormalBox {
+    background-
+}
+.NormalBox .Title {
+    background-color: #216cbd;
+    border-radius: 5px 5px 0 0;
+    
+    font-weight: 700;
+    height: auto;
+    line-height: 25px;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+.NormalBox .Title a:link, a:visited {
+    
+}
+.NormalBox .Header {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #cacaca;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    font-weight: 700;
+    height: auto;
+    line-height: 25px;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+.NormalBox .Header a:link, a:visited {
+    
+}
+.NormalBox .Content {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #cacaca;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    padding: 10px;
+}
+.NormalBox .BoxFooter {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #cacaca;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    padding: 10px;
+}
+.ButtonGreen {
+    background-color: #216cbd;
+    background-image: linear-gradient(to bottom, #216cbd, #216cbd);
+    border: 1px solid #216cbd;
+    border-radius: 3px;
+    color: #ffffff;
+    display: inline-block;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 7px 10px;
+    text-decoration: none;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+}
+.ButtonGreen:hover {
+    background-color: #216cbd;
+    background-image: linear-gradient(to bottom, #216cbd, #216cbd);
+    border: 1px solid #224b09;
+    cursor: pointer;
+}
+.Main {
+    padding: 0;
+}
+.FlightContent {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #ddd;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 0;
+    margin-top: 10px;
+}
+.FlightItem {
+    border-bottom: 1px solid #989898;
+    padding: 5px 0;
+}
+#nendoi{background:#f4f4f4;}
+.FlightItem:hover {
+    background-color: #FFFF33;
+}
+#nendoi:hover {
+    background-color: #FFFF33;
+}
+.FlightItem .Carrier {
+    height: 40px;
+   
+    text-align: center;
+    
+}
+.FlightItem .CarrierLogo {
+    width: 80px;
+}
+.FlightItem .CarrierLogo img {
+    max-height: 30px;
+    max-width: 80px;
+}
+.FlightItem .CarrierName {
+    font-size: 9px;
+    margin-top: 3px;
+}
+.FlightItem .Depart {
+    padding-left: 5px;
+    
+}
+.FlightItem .Arrival {
+    padding-left: 5px;
+   
+}
+.FlightItem .Depart .City, .FlightItem .Arrival .City {
+    color: #4b4b4b;
+    font-size: 13px;
+}
+.FlightItem .Depart .Time, .FlightItem .Arrival .Time {
+    color: #4b4b4b;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 2px;
+}
+.FlightItem .FlightInfo {
+    padding-left: 00px;
+    width: 120px;
+}
+.FlightItem .FlightInfo .FlightNumber {
+    background-image: url("../images/plane-flight-icon.png");
+    background-repeat: no-repeat;
+    color: #6d6d6d;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 22px;
+}
+.FlightItem .FlightInfo .Detail {
+}
+.FlightItem .Price, .FlightItem .Price b {
+    color: #ff3900;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    
+}
+.FlightItem .Price .Currency {
+    color: #666666;
+    font-size: 10px;
+    font-weight: normal;
+}
+.FlightItem .Select {
+    padding-right: 5px;
+    text-align: right;
+	
+}
+.FlightItem .FlightDetail {
+    display: none;
+    padding: 0 10px 10px;
+}
+.FlightItem .FlightDetail .Carrier {
+    height: 50px;
+    padding-right: 20px;
+    text-align: center;
+    width: 80px;
+}
+.FlightItem .FlightDetail .CarrierLogo {
+}
+.FlightItem .FlightDetail .CarrierLogo img {
+    max-height: 30px;
+    max-width: 80px;
+}
+.FlightItem .FlightDetail .CarrierName {
+    font-size: 9px;
+    margin-top: 3px;
+}
+.FlightItem .FlightDetail .Depart {
+    color: #888;
+    padding-left: 0;
+    padding-right: 10px;
+    text-align: right;
+    width: 150px;
+}
+.FlightItem .FlightDetail .Arrival {
+    color: #888;
+    padding-left: 10px;
+    width: 150px;
+}
+.FlightItem .FlightDetail .ItineraryBox-Direct {
+    color: #444;
+    text-align: center;
+    width: 150px;
+}
+.FlightItem .FlightDetail .ItineraryBox-Direct b {
+    display: inline-block;
+    padding-left: 5px;
+}
+.FlightItem .FlightDetail .Depart .City, .FlightItem .FlightDetail .Arrival .City {
+    color: #0066cc;
+    font-size: 15px;
+    font-weight: 700;
+}
+.FlightItem .FlightDetail .Depart .Time, .FlightItem .FlightDetail .Arrival .Time {
+    color: #006699;
+    font-size: 15px;
+    margin-top: 2px;
+}
+.FlightItem .FlightDetail .Depart .Time .TimeTitle, .FlightItem .FlightDetail .Arrival .Time .TimeTitle {
+    font-size: 12px;
+    font-weight: 700;
+}
+.FlightItem.selected .IBESelectFlight {
+    display: none;
+}
+.FlightInfoDetail {
+    background-image: url("Images/flight_direction.png");
+    background-repeat: no-repeat;
+    height: 105px;
+}
+.FlightInfoDetail .Depart {
+    vertical-align: top;
+    width: 200px;
+}
+.FlightInfoDetail .Info {
+    padding-top: 65px;
+    vertical-align: top;
+}
+.FlightInfoDetail .Arrival {
+    text-align: right;
+    vertical-align: top;
+}
+.FlightInfoDetail .Depart .City, .FlightInfoDetail .Arrival .City {
+    color: #0066cc;
+    font-size: 15px;
+    font-weight: 700;
+}
+.FlightInfoDetail .Depart .Time, .FlightInfoDetail .Arrival .Time {
+    color: #006699;
+    font-size: 15px;
+    margin-top: 2px;
+}
+.FlightInfoDetail .Depart .Time .TimeTitle, .FlightInfoDetail .Arrival .Time .TimeTitle {
+    font-size: 12px;
+}
+.FlightInfoDetail .Info .CarrierLogo {
+    text-align: center;
+    width: 85px;
+}
+.FlightInfoDetail .Info .CarrierLogo img {
+    height: 30px;
+}
+.FlightInfoDetail .Info .InfoDetails {
+    padding-left: 10px;
+    width: 150px;
+}
+.StopInfo {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    margin: 10px -5px;
+    padding: 5px;
+    text-align: center;
+}
+.TablePrice {
+}
+.TablePrice .ItemHeader {
+    font-weight: 700;
+    line-height: 20px;
+    padding-top: 5px;
+}
+.TablePrice .ItemPrice {
+    color: Red;
+    font-weight: 700;
+    line-height: 20px;
+    padding-top: 5px;
+    text-align: right;
+}
+.TablePrice .ItemPrice .Currency {
+    color: #666666;
+    font-weight: 700;
+}
+.TotalPrice {
+}
+.TotalPrice .Price {
+    color: #ff6600;
+    font-weight: 700;
+}
+.TotalPrice .Currency {
+    color: #666666;
+    font-weight: 700;
+}
+.MarginBottom {
+    margin-bottom: 10px;
+}
+.MarginTop {
+    margin-top: 10px;
+}
+.IBEHasCheckbox input[type="checkbox"] {
+    border: 0 none;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    left: -1000px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    z-index: -1000;
+}
+.IBEHasCheckbox input[type="checkbox"] + label {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    color: #444;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    height: 17px;
+    line-height: 17px;
+    padding-left: 21px;
+    vertical-align: middle;
+}
+.IBEHasCheckbox input[type="checkbox"]:checked + label {
+    background-position: 0 -17px;
+}
+.IBEHasCheckbox label {
+    -moz-user-select: none;
+    background-image: url("http://csscheckbox.com/checkboxes/u/csscheckbox_6de93f3dd0a8cd78b0f2526c1bc6e0f7.png");
+}
+#ckbListAirlines, #ckbListStopPoint {
+    padding: 5px;
+    width: 100%;
+}
+#ckbListAirlines td, #ckbListStopPoint td {
+    border: 0 none;
+    padding: 3px;
+}
+#ckbListAirlines td label, #ckbListStopPoint td label {
+    font-size: 12px;
+    width: 100%;
+}
+#ckbListAirlines td label b {
+    display: inline-block;
+    font-weight: normal;
+    height: 17px;
+    max-width: 115px;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+}
+#ckbListAirlines td label .IBEMinPrice {
+    color: #216cbd;
+    float: right;
+    font-size: 11px;
+}
+#pnSort a, .IBEFlightSortWrapper a {
+    color: #333;
+    display: inline-block;
+    font-size: 13px;
+    height: 18px;
+    margin-bottom: 7px;
+    text-decoration: none;
+}
+.Ascending {
+    background-image: url("/Statics/images/sort_arrows.gif");
+    background-position: right 1px;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    padding-right: 14px;
+    text-decoration: underline;
+}
+.Descending {
+    background-image: url("/Statics/images/sort_arrows.gif");
+    background-position: right -20px;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    padding-right: 14px;
+    text-decoration: underline;
+}
+#pnFilter .BoxContent {
+    padding: 0;
+}
+#pnFilter .BoxContent > span {
+    background: #f1f1f1 none repeat scroll 0 0;
+    border-bottom: 1px solid #ddd;
+    color: #858484;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    height: 25px;
+    line-height: 25px;
+    text-indent: 10px;
+    width: 100%;
+}
+.IBESRWrapper .IBESearchBoxHeader {
+    background: #216cbd none repeat scroll 0 0;
+    font-size: 13px;
+    height: 25px;
+    line-height: 25px;
+}
+.IBESRWrapper .IBESearchBoxMain {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+}
+.IBESRWrapper .details {
+    background-image: url("../images/detail_arrow.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    color: #807d7d;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 0 15px 0 0;
+    text-decoration: none;
+}
+.IBESRWrapper .details_selected {
+    background-image: url("../images/detail_arrow_s.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    color: #6699ff;
+    cursor: pointer;
+    padding: 0 15px 0 0;
+    text-decoration: none;
+}
+.WhiteBox {
+    background-
+    border: 1px solid #cacaca;
+}
+.WhiteBox .WhiteBoxTitle {
+    border-bottom: 1px solid #cacaca;
+    font-weight: 700;
+    height: auto;
+    line-height: 25px;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+.WhiteBox .WhiteBoxTitle a:link, a:visited {
+}
+.WhiteBox .WhiteBoxContent {
+    padding: 10px;
+}
+.WhiteBox .WhiteBoxFooter {
+    border-top: 1px solid #cacaca;
+    padding: 10px;
+}
+.GrayBox {
+    background-
+    color: #696969;
+    font-size: 12px;
+}
+.GrayBox .Title {
+    background-color: #e0e0e0;
+    border-radius: 5px 5px 0 0;
+    font-weight: 700;
+    height: auto;
+    line-height: 25px;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+.GrayBox .Title a:link, a:visited {
+}
+.GrayBox .Header {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    font-weight: 700;
+    height: auto;
+    line-height: 25px;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+.GrayBox .Header a:link, a:visited {
+}
+.GrayBox .Content {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #ddd;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    padding: 5px;
+}
+.GrayBox .BoxFooter {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    padding: 10px;
+}
+.PopupArea {
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 30%;
+    visibility: visible;
+    width: 100%;
+    z-index: 1003;
+}
+.IBESRWrapper .IBESearchButton {
+    background-color: #216cbd;
+    background-image: linear-gradient(to bottom, #216cbd, #216cbd);
+    border-radius: 3px;
+    color: #ffffff;
+    display: inline-block;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 0;
+    padding: 0 10px;
+    text-decoration: none;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+}
+.TotalPrice {
+    color: #7db921;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: right;
+    text-transform: uppercase;
+}
+.SearchParamContentPageLoad {
+    padding: 10px;
+    text-align: center;
+}
+.SearchParamContentPageLoad > div {
+    margin-top: 10px;
+}
+.SearchParamContentPageLoad .Itinerary {
+    font-weight: 700;
+}
+.SearchParamContentPageLoad span {
+}
+.Clear {
+    clear: both;
+}
+.Left {
+    float: left;
+    margin-right: 10px;
+    width: 250px;
+}
+.Right {
+    float: left;
+}
+.BoxFareOption {
+    background-
+    margin-bottom: 20px;
+    width: 750px;
+}
+.FareHeader .Price {
+    float: right;
+    margin-left: 10px;
+}
+.FareHeader .Price .TotalPriceTitle {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    height: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.FareHeader .GDS {
+}
+.FareHeader .Lowcost {
+    background-image: url("/Images/lowcost.jpg");
+    background-repeat: no-repeat;
+    float: left;
+    height: 30px;
+    width: 20px;
+}
+.FareHeader .PriceDetailLink {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.FareHeader .PriceDetailLink a:link, a:visited {
+    
+}
+.details {
+    background-image: url("Images/detail_arrow.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 0 15px 0 0;
+    text-decoration: none;
+}
+.details_selected {
+    background-image: url("Images/detail_arrow_s.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 0 15px 0 0;
+    text-decoration: none;
+}
+.PriceDetail {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-image: none;
+    border-style: none solid;
+    border-width: medium 1px;
+    padding: 10px;
+}
+.TablePrice {
+}
+.TablePrice .ItemHeader {
+    font-weight: 700;
+    line-height: 20px;
+    padding-top: 5px;
+}
+.TablePrice .ItemPrice {
+    color: Red;
+    font-weight: 700;
+    line-height: 20px;
+    padding-top: 5px;
+    text-align: right;
+}
+.TablePrice .ItemPrice .Currency {
+    color: #666666;
+    font-weight: 700;
+}
+.TotalPrice {
+}
+.TotalPrice .Price {
+    color: #ff6600;
+    font-weight: 700;
+}
+.Currency {
+    color: #666666;
+}
+.GrandPrice {
+    color: #ff6600;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: right;
+}
+.FareFlightContent {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #cacaca;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+}
+.FareFlightContent .FilghtItem {
+}
+.FareFlightContent .FilghtItem .FlightDirection {
+    background-color: #e0e0e0;
+    height: auto;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.FareFlightContent .FilghtItem .FilghtInfo {
+    border-top: 1px solid #cacaca;
+    padding: 5px;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FilghtInfoSummary {
+    float: left;
+    width: 680px;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FilghtInfoSummary .Airline {
+    padding-right: 20px;
+    text-align: center;
+    width: 80px;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FilghtInfoSummary .Airline img {
+    max-height: 30px;
+    max-width: 80px;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FilghtInfoSummary .Airline .AirlineName {
+    font-size: 10px;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FilghtInfoSummary .Point {
+    width: 170px;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FilghtInfoSummary .Point .City {
+    color: #0066cc;
+    font-size: 15px;
+    font-weight: 700;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FilghtInfoSummary .Point .Time {
+    background-repeat: no-repeat;
+    color: #006699;
+    font-size: 15px;
+    margin-top: 2px;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FilghtInfoSummary .Point .AirportName {
+    font-size: 11px;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FilghtInfoSummary .Detail {
+    color: #696969;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FilghtInfoSummary .Detail a {
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FilghtInfoSummary .Detail a:hover {
+}
+.FareFlightContent .FilghtItem .FilghtInfo .SelectRadioButton {
+    float: right;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    width: 30px;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetailsMaster {
+    padding: 0;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails {
+    background-
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin: 5px 10px 10px;
+    padding: 0;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails .FlightInfoDetailsTitle {
+    background-color: #e0e0e0;
+    font-weight: 700;
+    height: auto;
+    line-height: 25px;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails .NonRefundMessage {
+    float: right;
+    font-weight: normal;
+    padding-right: 10px;
+}
+.NonRefundMessage {
+    float: right;
+    font-weight: normal;
+    padding-right: 10px;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails .FlightInfoDetailsContent {
+    padding: 5px;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails .FlightInfoDetailsContent .Airline {
+    padding-right: 10px;
+    text-align: center;
+    width: 90px;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails .FlightInfoDetailsContent .Airline img {
+    max-height: 30px;
+    max-width: 80px;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails .FlightInfoDetailsContent .Airline .AirlineName {
+    font-size: 10px;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails .FlightInfoDetailsContent .Depart {
+    padding-left: 0;
+    text-align: right;
+    width: 240px;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails .FlightInfoDetailsContent .Depart .City {
+    color: #0066cc;
+    font-size: 15px;
+    font-weight: 700;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails .FlightInfoDetailsContent .FlightInfoDetailsContent .Depart .Time {
+    color: #696969;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails .FlightInfoDetailsContent .Depart .Time .TimeTitle {
+    color: #696969;
+    font-weight: 700;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails .FlightInfoDetailsContent .Depart .Time .TimeDetail {
+    background-repeat: no-repeat;
+    color: #006699;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 2px;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails .FlightInfoDetailsContent .Depart .AirportName {
+    color: #696969;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails .FlightInfoDetailsContent .ItineraryBox-Direct {
+    text-align: center;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails .FlightInfoDetailsContent .Arrival {
+    padding-left: 0;
+    text-align: left;
+    width: 240px;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails .FlightInfoDetailsContent .Arrival .City {
+    color: #0066cc;
+    font-size: 15px;
+    font-weight: 700;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails .FlightInfoDetailsContent .Arrival .Time {
+    color: #696969;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails .FlightInfoDetailsContent .Depart .Time {
+    color: #696969;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails .FlightInfoDetailsContent .Arrival .Time .TimeTitle {
+    font-weight: 700;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails .FlightInfoDetailsContent .Arrival .Time .TimeDetail {
+    background-repeat: no-repeat;
+    color: #006699;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 2px;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails .FlightInfoDetailsContent .Arrival .AirportName {
+    color: #696969;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails .FlightInfoDetailsContent .Detail {
+    color: #696969;
+    font-size: 11px;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails .FlightInfoDetailsContent .Detail a {
+    color: #838383;
+    text-decoration: none;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails .FlightInfoDetailsContent .Detail a:hover {
+}
+.FareFlightContent .FilghtItem .StopBar {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #e0e0e0;
+    border-bottom: 1px solid #cacaca;
+    border-image: none;
+    border-left: medium none;
+    border-right: medium none;
+    border-top: 1px solid #cacaca;
+    font-size: 11px;
+    line-height: 20px;
+    margin-left: -5px;
+    margin-right: -5px;
+    padding: 2px 0 2px 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+.FareFlightContent .FilghtItem .NoBottom {
+    border-bottom: 0 none;
+}
+.FareFlightContent .FilghtItem .NoTop {
+    border-top: 0 none;
+}
+.FareFlightContent .FilghtItem .StopBar img {
+    margin-bottom: -1px;
+}
+.FareFooter {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #cacaca;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    padding: 5px;
+}
+.FareFooter .ContinueButton {
+    text-align: right;
+}
+.FareFooter .ContinueButton .ButtonContinue {
+    background-color: #216cbd;
+    background-image: linear-gradient(to bottom, #216cbd 0px, #056ba9 100%);
+    background-repeat: repeat-x;
+    border: 0 none;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 1px rgba(0, 0, 0, 0.075);
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 25px;
+    text-decoration: none;
+}
+.PageNumber {
+    float: right;
+}
+.PageNumber a {
+    color: #6699ff;
+    margin: 2px;
+    padding: 3px;
+    text-decoration: none;
+}
+.PageNumber a.visited {
+    font-size: 16px;
+    font-weight: 700;
+}
+.PageNumber a.aspNetDisabled {
+    color: #666;
+}
+.PageNumber a:hover {
+}
+.TotalPrice {
+    color: #7db921;
+    font-size: 15px;
+    font-weight: 700;
+    height: 35px;
+    line-height: 25px;
+    text-align: right;
+    text-transform: uppercase;
+}
+.autocomplete_completionListElement {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    color: Black;
+    height: auto;
+    list-style-type: none;
+    margin: 0;
+    max-height: 500px;
+    min-width: 200px;
+    overflow: auto;
+    padding-left: 0;
+}
+.autocomplete_highlightedListItem {
+    background: #216cbd none repeat scroll 0 0;
+    
+    cursor: default;
+    padding: 5px;
+}
+.autocomplete_listItem {
+    padding: 5px;
+}
+.Next {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.TravelBuddy {
+    float: right;
+}
+.SearchParam {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    width: 100%;
+}
+.SearchParam .FlightIcon {
+    float: left;
+    height: 60px;
+    padding: 0;
+}
+.SearchParam .FlightIcon img {
+    height: 60px;
+}
+.SearchParam .SearchParamContent {
+    float: left;
+    width: 100%;
+}
+.SearchParam .SearchParamContent .Itinerary {
+    font-size: 14px;
+    font-weight: 700;
+}
+.SearchParam .SearchParamContent .FlightDate {
+    margin-top: 4px;
+}
+.SearchParam .PassengerNumber {
+    float: right;
+    margin-right: 5px;
+}
+.IBESlider {
+    background: #999999 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 0;
+    box-shadow: none;
+    height: 5px;
+    margin: 10px 0;
+    position: relative;
+}
+.IBESlider .ui-slider-range {
+    background: #0072c6 none repeat scroll 0 0;
+}
+.IBESlider .ui-slider-handle {
+    background: #333 none repeat scroll 0 0;
+    border: 1px solid #fff;
+    border-radius: 0;
+    margin-left: -3px;
+    outline: 0 none;
+    width: 7px;
+}
+.IBESlider .ui-slider-handle.ui-state-focus {
+    background: #0072c6 none repeat scroll 0 0;
+    border: 1px solid #fff;
+    outline: medium none;
+}
+.IBESliderInfo {
+    color: #959595;
+    font-family: tahoma;
+    font-size: 11px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.IBESliderInfo * {
+    font-size: 11px;
+}
+.IBESliderWrapper {
+    height: 30px;
+    margin: 10px 10px 0;
+    position: relative;
+}
+.IBESliderDown, .IBESliderUp {
+    background: rgba(0, 0, 0, 0) url("../images/IBESliderBg.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 24px;
+    position: absolute;
+    width: 24px;
+}
+.IBESliderDown {
+}
+.IBESliderUp {
+    background-position: -50px 0;
+    right: 0;
+}
+.IBESLiderTrack {
+    left: 25px;
+    position: absolute;
+    top: 0;
+    width: 147px;
+}
+.IBESliderDown:hover, .IBESliderUp:hover {
+    background-color: #0072c6;
+}
+.IBESliderDown:hover {
+    background-position: -75px -25px;
+}
+.IBESliderUp:hover {
+    background-position: -25px 0;
+}
+.IBESliderTooltip {
+    background: white none repeat scroll 0 0;
+    border: 1px solid #c0c0c0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    color: #666;
+    display: inline-block;
+    left: -73px;
+    min-width: 100px;
+    padding: 3px 8px 4px;
+    position: absolute;
+    text-align: center;
+    top: -30px;
+    width: 150px;
+    z-index: 41998;
+}
+#trackBarTotalFlightTime .IBESliderTooltip {
+    left: -50px;
+    width: 100px;
+}
+.SearchParam .SearchParamContent .Itinerary * {
+    color: #666;
+    font-size: 14px;
+    font-weight: 700;
+}
+.FareFlightContent .FilghtItem .StopBar {
+    color: #696969;
+    font-size: 11px;
+    line-height: 20px;
+    text-align: center;
+}
+.BorderTop {
+    border-top: 1px solid #cacaca;
+}
+.IBETabHeader {
+    margin-bottom: -1px;
+}
+.IBETabHeader > h3 {
+    background: #f1f1f1 none repeat scroll 0 0;
+    border: 1px solid #9da0aa;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: normal;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 0 0 5px;
+    padding: 0 10px;
+    z-index: 10;
+}
+.IBETabHeader > h3.active {
+    background: #fff none repeat scroll 0 0;
+    border-bottom-color: #fff;
+    margin-bottom: -1px;
+}
+.IBETabContent {
+    z-index: 8;
+}
+.IBETabContent > .IBETab {
+    border: 1px solid #9da0aa;
+    box-sizing: border-box;
+    display: none;
+    padding: 10px;
+    width: 100%;
+    z-index: 9;
+}
+.IBETabContent > .IBETab.active {
+    display: block;
+}
+.IBETabs {
+    border-top: 1px solid #cacaca;
+    margin-top: 10px;
+    padding: 10px;
+}
+.NonRefundMessage {
+    color: #696969;
+    font-size: 11px;
+}
+.ResultContinue {
+    display: inline-block;
+    width: 100%;
+}
+.ResultContinue #btnContinue {
+    display: none;
+    float: right;
+    margin-top: 10px;
+}
+#IBEReDoSearchNotice {
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+#IBEReDoSearchNoticeContent {
+    background: #fff none repeat scroll 0 0;
+    font-family: tahoma;
+    font-size: 14px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: left;
+    width: 380px;
+}
+#IBEReDoSearchNoticeContent i {
+    display: none;
+}
+#IBEReDoSearchNoticeContent a {
+    color: #999;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+#IBEReDoSearchBtn {
+    background: #216cbd none repeat scroll 0 0;
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#IBEReDoSearchBtn:hover {
+    background: #0758ae none repeat scroll 0 0;
+}
+.IBESelectFlight {
+    background: #1060b5 none repeat scroll 0 0;
+color: #ffffff
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    line-height: 26px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 12px;
+	width:65px;
+}
+.IBESelectFlight a{color: #ffffff !important;}
+.IBESelectFlight:hover {
+    background: #1060b5 none repeat scroll 0 0;
+}
+.IBESelectFlight i {
+    background: #1060b5 none repeat scroll 0 0;
+    border-left: 1px solid #1d52c2;
+    color: #ddeaff;
+    float: right;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 5px;
+    text-align: center;
+    text-indent: 0;
+    width: 20px;
+}
+#IBEWeAreSearchingFlight {
+    color: #216cbd;
+    font-size: 15px;
+}
+.IBESearchResult.IBEMobile {
+    width: 100%;
+}
+.IBESearchResult.IBEMobile .IBESRMain {
+    width: 100%;
+}
+.IBESearchResult.IBEMobile ul.IBEProgressBar {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    width: 100%;
+}
+.IBESearchResult.IBEMobile ul.Step1 a#step1 {
+    color: orangered;
+}
+.IBESearchResult.IBEMobile ul.Step2 a#step2 {
+    color: orangered;
+}
+.IBESearchResult.IBEMobile ul.Step2 a#step1 {
+    color: #696969;
+}
+.IBESearchResult.IBEMobile ul.IBEProgressBar li a, .IBESearchResult.IBEMobile ul.IBEProgressBar li a:hover {
+    text-align: left;
+    width: auto;
+}
+.IBESearchResult.IBEMobile ul.IBEProgressBar li.last {
+    float: left;
+}
+.IBESearchResult.IBEMobile .BoxFareOption {
+    display: inline-block;
+    width: 100%;
+}
+.IBESearchResult.IBEMobile ul.IBEProgressBar li {
+    background: rgba(0, 0, 0, 0) url("/Statics/Images/arrow.png") no-repeat scroll right center;
+    float: left;
+    margin-right: 5px;
+    padding-right: 20px;
+}
+.IBESearchResult.IBEMobile ul.IBEProgressBar li:last-child {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.IBESearchResult.IBEMobile .IBEPageWrapper {
+    clear: both;
+    width: 100%;
+}
+.IBESearchResult.IBEMobile .FareHeader .PriceDetailLink {
+    float: left;
+}
+.IBESearchResult.IBEMobile .FareFlightContent .FilghtItem .FilghtInfo .FilghtInfoSummary .Point {
+    padding: 0 10px;
+    width: auto;
+}
+.IBESearchResult.IBEMobile .FareFlightContent .FilghtItem .FilghtInfo .FilghtInfoSummary {
+    width: auto;
+}
+.IBESearchResult.IBEMobile .FareFlightContent .FilghtItem .FilghtInfo .FilghtInfoSummary .Airline {
+    width: 40px;
+}
+.IBESearchResult.IBEMobile .FareFlightContent .FilghtItem .FilghtInfo .FilghtInfoSummary .Airline img {
+    max-width: 40px;
+}
+.IBESearchResult.IBEMobile #pnSort a {
+    margin-right: 40px;
+}
+.IBESearchResult.IBEMobile #pnSort .IBESortFlight {
+    padding: 10px 5px 0;
+    width: 100%;
+}
+.IBESearchResult.IBEMobile .SearchParamDomestic .FlightIcon {
+    display: none;
+}
+.IBESearchResult.IBEMobile .FlightItem .CarrierLogo img {
+    max-width: 50px;
+}
+.IBESearchResult.IBEMobile .FlightItem .Price {
+    width: auto;
+}
+.IBESearchResult.IBEMobile .FlightItem .Arrival {
+    width: auto;
+}
+.IBESearchResult.IBEMobile .FlightItem .Depart {
+    width: auto;
+}
+.IBESearchResult.IBEMobile .FlightItem .Depart .Time, .IBESearchResult.IBEMobile .FlightItem .Arrival .Time {
+    font-size: 15px;
+}
+.IBESearchResult.IBEMobile .FlightItem .Carrier {
+    padding: 5px;
+    width: 50px;
+}
+.IBESearchResult.IBEMobile .FlightItem .CarrierLogo {
+    width: 50px;
+}
+#IBEProgressBarWrapper {
+    height: 40px;
+    position: relative;
+}
+#IBEStepLine {
+    display: inline-block;
+    height: 5px;
+    position: absolute;
+    width: 100%;
+}
+.IBEFilterByDate {
+    background: #f7f7f7 none repeat scroll 0 0;
+    display: inline-block;
+    font-family: arial;
+    overflow: hidden;
+    vertical-align: bottom;
+    width: 100%;
+}
+.IBEFilterByDate li {
+    color: #666;
+    cursor: pointer;
+    float: left;
+    list-style-type: none;
+    margin-left: 0;
+    padding: 15px;
+    text-align: center;
+    width: 100px;
+}
+.IBEFilterByDate li span {
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.IBEFilterByDate li.current {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #dbdbdb none repeat scroll 0 0;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    color: #215da3;
+    cursor: default;
+    margin-top: 10px;
+    padding: 10px;
+}
+.IBEFilterByDate li:hover {
+    color: #333;
+}
+.IBEFilterByDate li.current:hover {
+    color: #215da3;
+}
+.IBEFilterByDate li.disabled {
+    color: #ddd;
+    cursor: not-allowed;
+}
+.IBEFlightDetail {
+    border-top: 1px solid #ddd;
+}
+.IBEFlightDetail .GrayBox .Title {
+    display: none;
+}
+.FlightItem.focus {
+    background: #f5f5f5 none repeat scroll 0 0;
+}
+.WhiteBox.NoTop {
+    border-top: 0 none;
+}
+.FlightDetailCondition .WhiteBox {
+    padding: 10px 5px;
+}
+.ConditionTitle strong {
+    color: #333;
+    font-size: 16px;
+}
+.FlightItem.selected {
+    background: #ffea82 none repeat scroll 0 0;
+}
+.IBEFlightSortWrapper {
+    background: #dbdbdb none repeat scroll 0 0;
+    border-bottom: 1px solid #ddd;
+    display: inline-block;
+    padding: 10px 0 0;
+    width: 100%;
+}
+.IBEFlightSortWrapper .BoxTitle {
+    color: #333;
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.IBEFlightSortWrapper .BoxTitle i {
+    margin-right: 5px;
+}
+.IBESortFlight {
+    display: inline-block;
+    width: 100%;
+}
+.IBESortFlight a {
+    display: inline-block;
+}
+.IBESortFlight .SortByCarrier {
+    font-size: 13px;
+    padding-left: 10px;
+    text-align: left;
+   
+}
+.IBESortFlight .SortByDTime {
+    font-size: 13px;
+   
+}
+.IBESortFlight .SortByATime {
+    font-size: 13px;
+   
+}
+.IBESortFlight .SortByFTime {
+    width: 110px !important;font-size:13px;
+}
+.IBESortFlight .SortByPrice {
+    font-size: 13px;
+    text-align: center;
+ 
+}
+.IBESortFlight .nosort {
+}
+.FlightItem td, .FlightItem table, .FlightItem tr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: transparent none repeat scroll 0 0;
+    border-color: transparent;
+    border-image: none;
+    border-style: none;
+    border-width: 0;
+    vertical-align: middle;
+}
+.FlightItem td:hover, .FlightItem table:hover, .FlightItem tr:hover {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none transparent;
+    vertical-align: middle;
+}
+#NonRefundMessageDepart img, #NonRefundMessageReturn img {
+    max-width: 14px;
+}
+.ButtonGreen {
+    border: 0 none;
+}
+.ContinueButton img {
+    height: 20px;
+}
+.ContinueButton table {
+    display: inline-block;
+    width: auto;
+}
+#BookingDetailControl_NonRefundMessageDepart img, #BookingDetailControl_NonRefundMessageReturn img, .FlightInfoDetailsContent .StopBar img {
+    max-width: 16px;
+}
+#IBEMessageBox .IBETabs {
+    border: 0 none;
+}
+#IBEPriceType p {
+    margin-bottom: 10px;
+}
+.IBEFIDSearch .FlightInfoDetailsContent .Depart {
+    text-align: left;
+    width: 180px;
+}
+.IBEFIDSearch .FlightInfoDetailsContent .Arrival {
+    text-align: left;
+    width: 180px;
+}
+.FareFlightContent .FilghtItem .FilghtInfo .FlightInfoDetails .FlightInfoDetailsContent .ItineraryBox-Direct {
+    padding-left: 0;
+    width: 165px;
+}
+#IBESelectOtherFlight {
+    color: #cad8f3;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: none;
+}
+.bodetailTitle {
+    color: #666666;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 30px;
+    padding-bottom: 0;
+    text-transform: uppercase;
+}
+.bodetailPaymentStatus {
+    color: #666666;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding-bottom: 0;
+}
+.IBEPickDateMobileOuter {
+    background: #f7f7f7 none repeat scroll 0 0;
+    overflow: hidden;
+    position: relative;
+    transform: translate3d(0px, 0px, 0px);
+}
+#IBEReturnPickDate.IBEPickDateMobileOuter {
+}
+.IBEPickDateMobileOuter .IBEPickDateMobile-Stage {
+    position: relative;
+}
+.IBEPickDateMobileOuter .IBEPickDateMobile-Stage .IBEPickDate-Item {
+    border-top: 5px solid #f7f7f7;
+    color: #666;
+    display: block;
+    padding: 5px 10px;
+    text-align: center;
+}
+.IBEPickDateMobileOuter .IBEPickDateMobile-Stage .IBEPickDate-Item.selectable {
+    cursor: pointer;
+}
+.IBEPickDateMobileOuter .IBEPickDateMobile-Stage .IBEPickDate-Item.current {
+    background: #ffffff none repeat scroll 0 0;
+    border-top: 5px solid #dad7d7;
+    color: #000;
+}
+.IBEPickDateMobileOuter .IBEPickDateMobile-Stage .IBEPickDate-Item.current span, .IBEPickDateMobileOuter .IBEPickDateMobile-Stage .IBEPickDate-Item.current i {
+    color: #000;
+}
+.IBEPickDateMobileOuter .IBEPickDateMobile-Stage .IBEPickDate-Item.disabled {
+    color: #ddd;
+    cursor: not-allowed;
+}
+.IBEPickDateMobileOuter .IBEPickDateMobile-Stage .IBEPickDate-Item.disabled span, .IBEPickDateMobileOuter .IBEPickDateMobile-Stage .IBEPickDate-Item.disabled i {
+    color: #d2d2d2;
+}
+.IBEPickDateMobileOuter .IBEPickDateMobile-Stage .IBEPickDate-Item span {
+    color: #464646;
+    display: block;
+    font-size: 11px;
+    margin-bottom: 3px;
+}
+.IBEPickDateMobileOuter .IBEPickDateMobile-Stage .IBEPickDate-Item i {
+    color: #464646;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+}
+.clearfix {
+    height: inherit;
+}
+.clearfix::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.IBEPickDateMobileOuter .IBEPickDateMobile-Stage .owl-prev {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-left: 1px solid #e7ebf0;
+    left: 0;
+}
+.IBEPickDateMobileOuter .IBEPickDateMobile-Stage .owl-prev::before {
+    content: "?";
+}
+.IBEPickDateMobileOuter .IBEPickDateMobile-Stage .owl-next {
+    border-right: 1px solid #e7ebf0;
+    right: 0;
+}
+.IBEPickDateMobileOuter .IBEPickDateMobile-Stage .owl-next::before {
+    content: "?";
+}
+.IBEPickDateMobileOuter .IBEPickDateMobile-Stage .owl-nav div {
+    background-color: #f7f7f7;
+    color: #215da3;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: inherit;
+    height: 100%;
+    margin-top: 0;
+    outline: 0 none;
+    padding-top: 18px;
+    position: absolute;
+    text-align: center;
+    text-indent: inherit;
+    text-rendering: auto;
+    top: 0;
+    width: 20px;
+    z-index: 9999;
+}
+.pthue{font-size:11px;color:#4b4b4b; font-weight:300;}
